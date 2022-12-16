@@ -10,7 +10,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/Asfahan4419/portfolio/master/src/Assets/Asfahan_React_2022.pdf";
+  "https://github.com/itsArfinn/my-portfolio/blob/main/src/Assets/Asfahan_React_2022.pdf?raw=false";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -35,11 +35,11 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        {/* <Row className="resume">
+        <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
-        </Row> */}
+        </Row>
 
         {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
