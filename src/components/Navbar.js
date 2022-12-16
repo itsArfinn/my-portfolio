@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { CgFileDocument, CgGitFork } from "react-icons/cg";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -70,12 +70,12 @@ function NavBar() {
                 oClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
+                  style={{ mhttps://itsarfinn.github.io/my-portfolio/arginBottom: "2px" }}
                 />{" "}
                 Projects
               </Nav.Link>
             </Nav.Item> */}
-            {/* 
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -84,7 +84,7 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             {/* <Nav.Item>
               <Nav.Link
