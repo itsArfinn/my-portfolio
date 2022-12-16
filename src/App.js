@@ -10,8 +10,7 @@ import {
   HashRouter as Router,
   Route,
   Routes,
-  Navigate,
-  HashRouter
+  Navigate
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
